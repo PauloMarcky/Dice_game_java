@@ -10,7 +10,7 @@ import com.mycompany.main.Main;
  *
  * @author paulo
  */
-public class DiceGen {
+public class DiceGame {
     
     public int firstDice;
     public int secondDice;
@@ -69,3 +69,4 @@ public class DiceGen {
     }
     
 }
+
