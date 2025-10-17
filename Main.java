@@ -3,7 +3,7 @@
  */
 
 package com.mycompany.main;
-import dice_generator.DiceGen;
+import dice_generator.DiceGame;
 import java.util.Scanner;
 
 /**
@@ -26,7 +26,7 @@ public class Main {
         System.out.print("Withdraw amount: ");
         money = input.nextInt();
         
-        DiceGen player = new DiceGen();
+        DiceGame player = new DiceGame();
         
         while(bet < money){
             player.eMoney(username, money);
